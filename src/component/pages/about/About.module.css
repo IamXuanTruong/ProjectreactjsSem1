@@ -1,0 +1,92 @@
+@media only screen and (max-width: 2560px) {
+    @font-face {
+        font-family: "quisand";
+        src: url("../../../font/static/Quicksand-Medium.ttf");
+    }
+
+    @font-face {
+        font-family: "quisand2";
+        src: url("../../../font/static/Quicksand-Bold.ttf");
+    }
+
+    .text-gradiant {
+        margin-bottom: 10px;
+        text-transform: uppercase;
+        background: -webkit-linear-gradient(35deg, #91ad41, #ff8a6c);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        font-family: "quisand2";
+    }
+    .banner{
+        position: relative;
+    }
+    .banner img{
+        height: 194px;
+        width: 100%;
+    }
+    .text-banner{
+        position: absolute;
+        top: 30%;
+        left: 44%;
+        text-align: center;
+        font-family: "quisand2";
+    }
+    .text-banner a{
+        color: rgb(149, 149, 149);
+        text-decoration: none !important;
+    }
+    .text-banner a:hover{
+        color: #91AD41;
+    }
+    .text-banner span{
+        color: #91AD41 !important;
+    }
+    .text-about{
+        margin: 20px auto;
+        width: 1100px;
+        margin-bottom: 60px;
+    }
+    .text-about h1{
+        font-family: "quisand2";
+        margin-bottom: 20px;
+    
+    }
+    .text-about p{
+        font-family: "quisand";
+        margin-bottom: 20px;
+    
+    }
+    .text-about ul li{
+        font-family: "quisand"
+    }
+}
+@media only screen and (max-width: 768px) {
+    @font-face {
+        font-family: "quisand";
+        src: url("../../../font/static/Quicksand-Medium.ttf");
+    }
+
+    @font-face {
+        font-family: "quisand2";
+        src: url("../../../font/static/Quicksand-Bold.ttf");
+    }
+    .text-about{
+        margin: 20px auto;
+        width: 680px;
+        margin-bottom: 60px;
+    }
+    .banner{
+        position: relative;
+    }
+    .banner img{
+        height: 194px;
+        width: 100%;
+    }
+    .text-banner{
+        position: absolute;
+        top: 30%;
+        left: 38%;
+        text-align: center;
+        font-family: "quisand2";
+    }
+}

@@ -1,0 +1,156 @@
+@media only screen and (max-width: 2560px) {
+    @font-face {
+        font-family: "quisand";
+        src: url("../../../../font/static/Quicksand-Medium.ttf");
+    }
+
+    @font-face {
+        font-family: "quisand2";
+        src: url("../../../../font/static/Quicksand-Bold.ttf");
+    }
+
+    .banner {
+        position: relative;
+    }
+
+    .banner img {
+        height: 194px;
+        width: 100%;
+    }
+
+    .text-banner {
+        position: absolute;
+        top: 30%;
+        left: 44%;
+        text-align: center;
+        font-family: "quisand2";
+    }
+
+    .text-banner a {
+        color: rgb(149, 149, 149);
+        text-decoration: none !important;
+    }
+
+    .text-banner a:hover {
+        color: #91AD41;
+    }
+
+    .text-banner span {
+        color: #91AD41 !important;
+    }
+
+    .pok {
+        color: #303030;
+        text-decoration: none;
+        font-size: 14px;
+        font-weight: 500;
+        padding-bottom: 100px;
+        transition: 0.3s ease-in !important;
+    }
+
+    .pok {
+        padding-bottom: 100px;
+        transition: 0.3s ease-in !important;
+    }
+
+    .pok:hover {
+        color: pink;
+
+    }
+
+    .pro {
+        width: 300px;
+        max-height: 300px;
+        margin-bottom: 20px;
+    }
+
+    .name-pro p {
+        font-size: 14px;
+        font-weight: 500;
+        padding: 6px 0;
+        color: #303030;
+    }
+
+    .banner-shop {
+        position: relative;
+    }
+
+    .text-pro {
+        position: absolute;
+        text-align: center;
+        top: 30%;
+        right: 47%;
+
+    }
+
+    .text-pro h2 {
+        font-size: 50px;
+        font-weight: 700;
+        margin-bottom: 16px;
+    }
+
+    .banner-shop img {
+        width: 100%;
+        max-height: 350px;
+        margin-bottom: 100px;
+    }
+
+    .icon-pro {
+        color: black;
+        padding-right: 7px;
+    }
+
+    .price {
+        color: #f598a4;
+    }
+
+    .shop {
+        padding-left: 120px;
+        padding-right: 120px;
+
+    }
+    .product{
+        max-height: 370px !important;
+        background: #F5F6FB;
+        transition: box-shadow .3s;
+        border: 1px solid #F5F6FB;
+       
+    }
+    .product:hover{
+        box-shadow: 0 0 11px rgba(33,33,33,.2); 
+    }
+    .product-img{
+        width: 100%; 
+     
+    }
+    .product-img:hover{
+        opacity: 0.5;
+    }
+    .tomato{
+        font-family: "quisand2";
+        margin-top: 15px;
+        font-size: 18px;
+        color: black;
+        display: block;
+        margin-bottom: 10px;
+    }
+    .tomato:hover{
+       text-decoration: none !important;
+       color: #91AD41;
+    }
+    .price{
+        font-family: "quisand";
+        font-size: 18px;
+        color: #91AD41;
+        
+    }
+    .price:hover{
+        text-decoration: none !important;
+        color: rgb(174, 174, 174);
+    }
+    .deals-value .amount {text-decoration: line-through;}
+    .woocommerce-Price-currencySymbol {margin-right: 10px;}
+    .price-sale{
+        color: #8b8b99;
+    }
+}

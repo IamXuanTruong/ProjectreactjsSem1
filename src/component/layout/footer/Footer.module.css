@@ -1,0 +1,326 @@
+@media only screen and (max-width: 2560px) {
+    @font-face {
+        font-family: "quisand";
+        src: url("../../../font/static/Quicksand-Medium.ttf");
+    }
+
+    @font-face {
+        font-family: "quisand2";
+        src: url("../../../font/static/Quicksand-Bold.ttf");
+    }
+
+
+
+    .footer-login {
+        padding: 30px 174px !important;
+        background: #F1E9DD;
+        display: flex;
+        /* font-family: "quisand"; */
+    }
+
+    .footer-login h5{
+        color: black;
+        font-family: "quisand2";
+        font-size: 28px;
+    }
+
+    .footer-login input {
+        width: 465px !important;
+        position: relative;
+        border-radius: 0px;
+        padding: 8px 8px;
+        font-family: "quisand";
+        border-top-right-radius: 20px;
+        border-bottom-right-radius: 20px;
+    }
+
+    .footer-login button {
+        position: absolute;
+        right: 8%;
+        background: linear-gradient(to right, #A1A847, #F98C69);
+        border-radius: 20px;
+        color: white;
+        width: 110px;
+        padding: 8px 4px;
+        font-family: "quisand";
+    
+    }
+
+    .menu-footer {
+        padding: 30px 174px !important;
+       
+    }
+
+    .icon-footer {
+        font-family: "quisand";
+    }
+
+    .icon-footer span {
+        padding-left: 10px;
+    }
+
+    .item-fot {
+        border: #A1A847 1px solid;
+        display: flex;
+        width: 40px;
+        border-radius: 31px;
+        font-size: 17px !important;
+        padding: 10px;
+        justify-content: center;
+        color: #A1A847;
+    }
+
+    .user {
+        padding-left: 100px !important;
+    }
+
+    .user span {
+        font-family: "quisand2" !important;
+    }
+
+    .user span:hover {
+        color: #A1A847;
+        transition: 0.4s;
+    }
+
+    .user-fot {
+        font-family: "quisand";
+        color: black;
+    }
+
+    .user-fot:hover {
+        text-decoration: none;
+        color: #A1A847;
+        transition: 0.4s;
+    }
+
+    .license {
+        font-family: "quisand" !important;
+        /* padding-left: 550px; */
+        background-color: #F1E9DD;
+        align-items: center;
+        padding: 20px 0px ;
+        text-align: center;
+    }
+    .drop{
+        display: none;
+    }
+  
+}
+
+@media only screen and (max-width: 768px) {
+    @font-face {
+        font-family: "quisand";
+        src: url("../../../font/static/Quicksand-Medium.ttf");
+    }
+
+    @font-face {
+        font-family: "quisand2";
+        src: url("../../../font/static/Quicksand-Bold.ttf");
+    }
+
+
+
+    .footer-login {
+        padding: 60px 25px !important;
+        text-align: center;
+        background: #F1E9DD;
+        display: block;
+    
+    }
+
+    .footer-login h5 {
+        font-family: "quisand2";
+        font-size: 24px;
+        margin-bottom: 25px;
+    }
+
+    .footer-login input {
+        width: 630px !important;
+        position: relative;
+        border-radius: 0px;
+        padding: 20px 20px !important;
+        font-family: "quisand";
+        margin-left: 10px;
+        border-top-right-radius: 20px;
+        border-bottom-right-radius: 20px;
+       
+    }
+
+    .footer-login button {
+        position: absolute;
+        background: linear-gradient(to right, #A1A847, #F98C69);
+        border-radius: 20px;
+        color: white;
+        width: 110px;
+        padding: 8px 4px;
+        font-family: "quisand";
+        right: 4%;
+     
+    }
+
+    .menu-footer {
+        padding: 0px 68px !important;
+        display: flex !important;
+    }
+
+    .icon-footer{
+        font-family: "quisand";
+    }
+    .icon-footer span{
+        padding-left: 10px;
+    }
+    
+    .item-fot{
+        border: #A1A847 1px solid;
+        display: flex;
+        width: 40px;
+        border-radius: 31px ;
+        font-size: 17px !important;
+        padding: 10px;
+        justify-content: center;
+        color: #A1A847; 
+    }
+    .user{
+        padding-left: 15px !important;
+       
+    }
+    .user span{
+        font-family: "quisand2" !important;
+    }
+    .user span:hover{
+        color: #A1A847;
+        transition: 0.4s ;
+    }
+    .user-fot{
+        font-family: "quisand";
+        color: black;
+    }
+    .user-fot:hover{
+        text-decoration: none;
+        color: #A1A847;
+        transition: 0.4s ;
+    }
+    .license{
+        font-family: "quisand" !important;
+        /* padding-left: 550px; */
+        background-color: #F1E9DD;
+        align-items: center;
+        padding: 20px 0px ;
+        text-align: center;
+        margin-top: 20px;
+    }
+}
+@media only screen and (max-width: 540px) {
+    @font-face {
+        font-family: "quisand";
+        src: url("../../../font/static/Quicksand-Medium.ttf");
+    }
+
+    @font-face {
+        font-family: "quisand2";
+        src: url("../../../font/static/Quicksand-Bold.ttf");
+    }
+
+
+
+    .footer-login {
+        padding: 60px 25px !important;
+        text-align: center;
+        background: #F1E9DD;
+        display: block;
+    }
+    .footer-login h5 {
+        font-family: "quisand2";
+        font-size: 24px;
+        margin-bottom: 25px;
+    }
+    .form-inline{
+        text-align: center;
+    }
+
+    .footer-login input {  
+        position: absolute;
+        width: 300px !important;
+        padding: 20px 20px !important;
+        font-family: "quisand";
+        border-radius: 20px;
+        border-top-right-radius: 20px;
+        border-bottom-right-radius: 20px;
+        margin-left: 70px;
+      
+    }
+
+    .footer-login button {
+        background: linear-gradient(to right, #A1A847, #F98C69);
+        border-radius: 20px;
+        color: white;
+        width: 100px;
+        padding: 8px 4px;
+        font-family: "quisand";
+        position: relative;
+        left: 280%;
+        bottom: 13%;
+        
+     
+    }
+    .menu-footer {
+        padding: 0px 7px !important;
+        display: flex !important;
+    }
+    .icon-footer{
+        font-family: "quisand";
+    }
+    .icon-footer span{
+        padding-left: 10px;
+    }
+    
+    .item-fot{
+        border: #A1A847 1px solid;
+        display: flex;
+        width: 40px;
+        border-radius: 31px ;
+        font-size: 17px !important;
+        padding: 10px;
+        justify-content: center;
+        color: #A1A847; 
+    }
+    .user{
+        padding-left: 15px !important;
+       display:  none;
+    }
+    .user span{
+        font-family: "quisand2" !important;
+    }
+    .user span:hover{
+        color: #A1A847;
+        transition: 0.4s ;
+    }
+    .user-fot{
+        font-family: "quisand";
+        color: black;
+       
+    }  
+    .drop{
+        display: block;
+   
+    }
+     .drop button{
+        background-color: white;
+        color: black;
+        width: 90%;
+       border: none;
+       border-bottom: #F1E9DD 1px solid;
+       border-radius: 0px;
+        justify-content: space-between !important;
+        display: flex;
+    } 
+    .drop button:hover{
+        background: white;
+        color: black;
+    } 
+    .text-fot{
+        width: 86vw !important;
+    }
+   
+}

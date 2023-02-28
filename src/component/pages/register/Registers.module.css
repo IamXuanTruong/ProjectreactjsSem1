@@ -1,0 +1,94 @@
+@font-face {
+    font-family: "quisand";
+    src: url("../../../font/static/Quicksand-Medium.ttf");
+}
+
+@font-face {
+    font-family: "quisand2";
+    src: url("../../../font/static/Quicksand-Bold.ttf");
+}
+.bg-register{
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-clip: content-box;
+    height: 109%;
+   
+}
+.from{
+    background-color: #fff;
+    padding: 10px;
+    font-family: "quisand1" !important;
+}
+.form-text {
+    font-weight: bold;
+}
+
+.form-login {
+    margin-left: 433px !important;
+}
+
+.form-input {
+    border-radius: 20px !important;
+    background-color: #f7f7f7;
+    outline: none !important;
+    box-shadow: none !important;
+    width: 100%;
+   
+}
+
+.btn-button {
+    color: #fff !important;
+    background: #91AD41 !important;
+    border-radius: 5px !important;
+   padding: 8px 10px !important;
+    width: 95px !important;
+    border-radius: 20px !important;
+
+}
+
+.err {
+    color: tomato !important;
+}
+
+.form-submit{
+    margin: 0 auto !important;
+  
+}
+
+
+
+.banner {
+    position: relative;
+}
+
+.banner img {
+    height: 194px;
+    width: 100%;
+}
+
+.text-banner {
+    position: absolute;
+    top: 30%;
+    left: 42%;
+    text-align: center;
+    font-family: "quisand2";
+}
+
+.text-banner a {
+    color: rgb(149, 149, 149);
+    text-decoration: none !important;
+}
+
+.text-banner a:hover {
+    color: #91AD41;
+}
+.text-submit{
+    color: gray;
+    
+}
+.text-submit:hover{
+    color: #91AD41;
+    text-decoration: underline;
+    
+}

@@ -1,0 +1,46 @@
+@media only screen and (max-width: 2560px) {
+    @font-face {
+        font-family: "quisand";
+        src: url("../../../../font/static/Quicksand-Medium.ttf");
+    }
+
+    @font-face {
+        font-family: "quisand2";
+        src: url("../../../../font/static/Quicksand-Bold.ttf");
+    }
+    .text-gradiant{
+        margin-bottom: 10px;
+        text-transform: uppercase;
+        background: -webkit-linear-gradient(35deg, #91ad41, #ff8a6c);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        font-family: "quisand2";
+    }
+    .trademark{
+        margin-top: 20px;
+        margin-bottom: 50px;
+        justify-content: space-between;
+    }
+    .trademark2{
+        display: none;
+    }
+}
+@media only screen and (max-width: 768px) {
+    @font-face {
+        font-family: "quisand";
+        src: url("../../../../font/static/Quicksand-Medium.ttf");
+    }
+
+    @font-face {
+        font-family: "quisand2";
+        src: url("../../../../font/static/Quicksand-Bold.ttf");
+    }
+    .trademark{
+        display: none;
+    }
+    .trademark2{
+        display: block;
+        margin-top: 20px;
+        margin-bottom: 40px;
+    }
+}

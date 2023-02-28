@@ -1,0 +1,186 @@
+@media only screen and (max-width: 2560px) {
+    @font-face {
+        font-family: "quisand";
+        src: url("../../../font/static/Quicksand-Medium.ttf");
+    }
+
+    * {
+        font-family: "quisand";
+    }
+
+    header {
+        margin: 15px 174px 25px 174px;
+        justify-content: space-between;
+        padding: 25px;
+        cursor: pointer !important;
+    }
+
+    .logo img {
+        width: 204px;
+        max-height: 65px;
+
+    }
+
+    .menu {
+        align-items: center;
+        margin-right: 200px;
+    }
+
+    .home {
+        color: #91AD41;
+    }
+
+    .home:hover {
+        color: #91AD41;
+    }
+
+    .text-menu {
+        color: rgb(110, 110, 110);
+    }
+
+    .text-menu:hover {
+        color: black;
+    }
+
+    .icon-header {
+        align-items: center;
+    }
+
+    .item-header:hover {
+        color: #91AD41;
+    }
+
+    .item-header {
+        padding-left: 25px;
+        padding-top: 15px;
+        font-size: 20px;
+        color: black;
+    }
+    .item-header a{
+        color: black;
+    }
+    .item-header a:hover{
+        color: #91AD41;
+    }
+
+    .icon-menu {
+        display: none;
+    }
+}
+
+
+@media only screen and (max-width: 768px) {
+    @font-face {
+        font-family: "quisand";
+        src: url("../../../font/static/Quicksand-Medium.ttf");
+    }
+
+    * {
+        font-family: "quisand";
+    }
+
+    header {
+        margin: 0px 68px 26px 68px;
+        justify-content: space-between;
+        padding: 25px;
+
+    }
+
+    .logo img {
+        width: 195px;
+        max-height: 63px;
+
+    }
+
+    .menu {
+        display: none !important;
+    }
+
+    .icon-menu {
+        display: block;
+        color: #91AD41;
+    }
+
+
+    .text-menu {
+        color: rgb(110, 110, 110);
+    }
+
+    .text-menu:hover {
+        color: black;
+    }
+
+    .icon-header {
+        align-items: center;
+    }
+
+    .item-header {
+        padding-left: 25px;
+        padding-top: 15px;
+        font-size: 15px;
+
+    }
+
+    .item-header:hover {
+        color: #91AD41;
+    }
+
+
+
+}
+
+@media only screen and (max-width: 540px) {
+    @font-face {
+        font-family: "quisand";
+        src: url("../../../font/static/Quicksand-Medium.ttf");
+    }
+
+    * {
+        font-family: "quisand";
+    }
+
+    header {
+        margin: 0px 18px 26px 18px;
+        justify-content: space-between;
+        padding: 5px;
+
+    }
+
+    .logo img {
+        width: 150px;
+        max-height: 48px;
+
+    }
+
+    .menu {
+        display: none !important;
+    }
+
+    .icon-menu {
+        display: block;
+        color: #91AD41;
+    }
+
+
+    .text-menu {
+        color: rgb(110, 110, 110);
+    }
+
+    .text-menu:hover {
+        color: black;
+    }
+
+    .icon-header {
+        align-items: center;
+    }
+
+    .item-header {
+        padding-left: 5px;
+        font-size: 12px;
+
+    }
+
+    .item-header:hover {
+        color: #91AD41;
+    }
+}

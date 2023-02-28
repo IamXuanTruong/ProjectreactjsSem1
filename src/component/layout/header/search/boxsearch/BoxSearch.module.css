@@ -1,0 +1,57 @@
+.box-search1 {
+    width: 310px; 
+    position: absolute;
+    background: white;
+    top: 15%;
+    left: 64%;
+    z-index: 20;
+}
+
+.img-search {
+    width: 60px;
+    height: 60px;
+    margin-right: 20px;
+    margin-left: 15px;
+}
+
+.form-item {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.p-result {
+    text-align: left;
+    font-size: 15px;
+    margin-bottom: 10px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    padding-left: 10px;
+}
+
+.fontname {
+    text-align: left;
+    font-size: 16px;
+}
+.fontname2{
+    text-align: left;
+    font-size: 12px;
+}
+
+.linkitem:hover {
+    text-decoration: none;
+    color: black;
+}
+
+.linkitem {
+    color: black;
+    
+}
+.fontname:hover{
+    color: white;
+}
+.fontname2:hover{
+    color: white;
+}
+.form-item:hover {
+    background-color: #91AD41;
+}

@@ -1,0 +1,39 @@
+
+/* .search {
+    position: absolute;
+    border: rgb(232, 231, 231) 1px solid;
+    right: 19%;
+    padding: 13px 10px;
+    width: 210px;
+    font-size: 14px;
+    margin-top: 20px;
+    z-index: 999;
+}
+
+.icon{
+    position: relative;
+    top: 18px;
+    right: 2px;
+    z-index: 1000;
+} */
+
+/* .icon {
+    left: 84%;
+    font-size: 20px;
+} */
+
+/* 
+.item{
+    position: absolute;
+    top: 70px;
+} */
+
+.search{
+    position: absolute;
+    border: rgb(232, 231, 231) 1px solid;
+    padding: 8px 10px;
+    width: 250px;
+    font-size: 14px;
+    right: 19%;
+    z-index: 999;
+}

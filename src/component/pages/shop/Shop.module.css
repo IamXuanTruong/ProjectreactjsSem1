@@ -1,0 +1,35 @@
+@media only screen and (max-width: 2560px) {
+    @font-face {
+        font-family: "quisand";
+        src: url("../../../font/static/Quicksand-Medium.ttf");
+    }
+
+    @font-face {
+        font-family: "quisand2";
+        src: url("../../../font/static/Quicksand-Bold.ttf");
+    }
+    .banner{
+        position: relative;
+    }
+    .banner img{
+        height: 194px;
+        width: 100%;
+    }
+    .text-banner{
+        position: absolute;
+        top: 30%;
+        left: 44%;
+        text-align: center;
+        font-family: "quisand2";
+    }
+    .text-banner a{
+        color: rgb(149, 149, 149);
+        text-decoration: none !important;
+    }
+    .text-banner a:hover{
+        color: #91AD41;
+    }
+    .text-banner span{
+        color: #91AD41 !important;
+    }
+}

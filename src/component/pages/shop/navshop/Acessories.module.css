@@ -1,0 +1,22 @@
+.acc{
+    background: none;
+    width: 100% !important;
+    text-align: left !important;
+    color: #303030;
+    font-size: 17px;
+    font-weight: 400;
+    transition: 0.3s ease-in !important;
+    padding: 20px 0px !important;
+}
+.nav-but .acc:hover{
+    color: #91AD41;
+}
+.border-custom {
+    --color: #f5f5f5;
+    --position: left bottom;
+    --width: 80%;
+    --height: 2px;
+    background: linear-gradient(var(--color), var(--color)) var(--position) / var(--width) var(--height) no-repeat;
+    padding-bottom: 10px;
+    font: bold 2.5rem sans-serif;
+  }

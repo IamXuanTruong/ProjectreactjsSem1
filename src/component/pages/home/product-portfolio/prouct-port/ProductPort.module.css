@@ -1,0 +1,74 @@
+@media only screen and (max-width: 2560px) {
+    @font-face {
+        font-family: "quisand";
+        src: url("../../../../../font/static/Quicksand-Medium.ttf");
+    }
+
+    @font-face {
+        font-family: "quisand2";
+        src: url("../../../../../font/static/Quicksand-Bold.ttf");
+    }
+   .product{
+        max-height: 370px !important;
+        background: #F5F6FB;
+        transition: box-shadow .3s;
+        border: 1px solid #F5F6FB;
+       
+    }
+    .product:hover{
+        box-shadow: 0 0 11px rgba(33,33,33,.2); 
+    }
+    .product-img{
+        width: 100%; 
+     
+    }
+    .product-img:hover{
+        opacity: 0.5;
+    }
+    .tomato{
+        font-family: "quisand2";
+        margin-top: 15px;
+        font-size: 18px;
+        color: black;
+        display: block;
+        margin-bottom: 10px;
+    }
+    .tomato:hover{
+       text-decoration: none !important;
+       color: #91AD41;
+    }
+    .price{
+        font-family: "quisand";
+        font-size: 18px;
+        color: #91AD41;
+        
+    }
+    .price:hover{
+        text-decoration: none !important;
+        color: rgb(174, 174, 174);
+    }
+    .deals-value .amount {text-decoration: line-through;}
+    .woocommerce-Price-currencySymbol {margin-right: 10px;}
+    .price-sale{
+        color: #8b8b99;
+    }
+    
+}
+@media only screen and (max-width: 768px) {
+    @font-face {
+        font-family: "quisand";
+        src: url("../../../../../font/static/Quicksand-Medium.ttf");
+    }
+
+    @font-face {
+        font-family: "quisand2";
+        src: url("../../../../../font/static/Quicksand-Bold.ttf");
+    }
+    .tomato{
+        font-size: 15px;
+
+    }
+    .price{
+        font-size: 14px;
+    }
+}

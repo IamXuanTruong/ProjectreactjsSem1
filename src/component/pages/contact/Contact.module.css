@@ -1,0 +1,76 @@
+
+
+.banner{
+    position: relative;
+}
+.banner img{
+    height: 194px;
+    width: 100%;
+}
+.text-banner{
+    position: absolute;
+    top: 30%;
+    left: 44%;
+    text-align: center;
+    font-family: "quisand2";
+}
+.text-banner a{
+    color: rgb(149, 149, 149);
+    text-decoration: none !important;
+}
+.text-banner a:hover{
+    color: #91AD41;
+}
+.text-banner span{
+    color: #91AD41 !important;
+}
+.all-pro{
+    justify-content: space-between;
+}
+.icon-footer{
+    font-family: "quisand";
+}
+.icon{
+    margin-top: 5px;
+    border: 1px solid #91AD41;
+    padding: 5px;
+    margin-right: 10px;
+    font-size: 30px;
+    color: #91AD41;
+    border-radius: 40px;
+}
+
+
+.text-map h5{
+    font-family: "quisand2";
+    margin-top: 30px;
+}
+.text-map input{
+    margin-bottom: 25px;
+    width: 290px;
+    padding: 10px 7px;
+    border-radius: 20px;
+    border: 1px solid #ebebeb;
+}
+.img-map{
+    width: 750px;
+    margin-left: 100px;
+    margin-top: 15px;
+}
+.content{
+    padding-bottom: 80px !important;
+}
+.footer-login2 button {
+  
+    background: linear-gradient(to right, #A1A847, #F98C69);
+    border-radius: 25px;
+    color: white;
+    width: 160px;
+    padding: 12px 4px;
+    font-family: "quisand";
+}
+.footer-login2 button:hover{
+    background: #A1A847;
+    transition: 0.9s;
+}
+

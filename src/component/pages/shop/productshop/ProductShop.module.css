@@ -1,0 +1,92 @@
+
+.pok {
+    color: #303030;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 500;
+    padding-bottom: 100px;
+    transition: 0.3s ease-in !important;
+}
+.pok {
+    padding-bottom: 100px;
+    transition: 0.3s ease-in !important;
+}
+.pok:hover {
+    color: #91AD41;
+
+}
+.pro {
+    width: 300px;
+    max-height: 300px;
+    margin-bottom: 20px;
+}
+
+.name-pro p {
+    font-size: 14px;
+    font-weight: 500;
+    padding: 6px 0;
+    color: #303030;
+}
+.transfer{
+    border-radius: none !important;
+}
+.transfer ul li{
+    width: 40px;
+    height: 38px;
+    padding-left: 5px;
+   
+}
+
+.transfer ul li a{
+    color: black;
+    padding: 10px;
+    text-align: center;
+}
+.transfer ul li a:hover{
+    color: white;
+    background: #91AD41;
+}
+.product{
+    max-height: 370px !important;
+    background: #F5F6FB;
+    transition: box-shadow .3s;
+    border: 1px solid #F5F6FB;
+   
+}
+.product:hover{
+    box-shadow: 0 0 11px rgba(33,33,33,.2); 
+}
+.product-img{
+    width: 100%; 
+ 
+}
+.product-img:hover{
+    opacity: 0.5;
+}
+.tomato{
+    font-family: "quisand2";
+    margin-top: 15px;
+    font-size: 18px;
+    color: black;
+    display: block;
+    margin-bottom: 10px;
+}
+.tomato:hover{
+   text-decoration: none !important;
+   color: #91AD41;
+}
+.price{
+    font-family: "quisand";
+    font-size: 18px;
+    color: #91AD41;
+    
+}
+.price:hover{
+    text-decoration: none !important;
+    color: rgb(174, 174, 174);
+}
+.deals-value .amount {text-decoration: line-through;}
+.woocommerce-Price-currencySymbol {margin-right: 10px;}
+.price-sale{
+    color: #8b8b99;
+}

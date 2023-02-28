@@ -1,0 +1,320 @@
+@media only screen and (max-width: 2560px) {
+    @font-face {
+        font-family: "quisand";
+        src: url("../../../../font/static/Quicksand-Medium.ttf");
+    }
+
+    @font-face {
+        font-family: "quisand2";
+        src: url("../../../../font/static/Quicksand-Bold.ttf");
+    }
+
+    .banner-icon1 {
+        /* width: 380px; */
+        max-height: 379px;
+        background: #59CCA6;
+        position: relative;
+        opacity: 1;
+    }
+
+    .banner-icon1:hover {
+        opacity: 0.8;
+    }
+
+    .banner-icon2 {
+        /* width: 380px; */
+        max-height: 379px;
+        background: #91AD41;
+        position: relative;
+        opacity: 1;
+    }
+
+    .banner-icon2:hover {
+        opacity: 0.8;
+    }
+
+    .banner-icon3 {
+        /* width: 380px; */
+        max-height: 379px;
+        background: #E3B375;
+        position: relative;
+        opacity: 1;
+    }
+
+    .banner-icon3:hover {
+        opacity: 0.8;
+    }
+
+    .banner-icon4{
+        /* width: 380px; */
+        max-height: 379px;
+        background: #EF7F94;
+        position: relative;
+        opacity: 1;
+    }
+
+    .banner-icon4:hover{
+        opacity: 0.8;
+    }
+
+    .col-img1{
+        width: 100%;
+        max-height: 379px;
+        padding-left: 159px;
+
+    }
+
+    .text-banner{
+        position: absolute;
+        top: 25%;
+        width: 250px !important;
+        left: 16%;
+        color: white;
+    }
+
+    .col-img2{
+        width: 100%;
+        max-height: 379px;
+        padding-left: 148px;
+
+    }
+
+    .col-img3{
+        width: 100%;
+        max-height: 379px;
+        padding-left: 78px;
+    }
+
+    .col-img4{
+        width: 100%;
+        max-height: 379px;
+        padding-left: 152px;
+    }
+
+    .but{
+
+        position: absolute;
+        top: 81%;
+        left: 16%;
+
+    }
+
+    .but button{
+        background: #27272f;
+        border: #27272f 1px solid;
+        color: white;
+        padding: 10px 12px;
+        border-radius: 5px;
+        font-family: "quisand";
+        font-size: 14px;
+    }
+
+    .but button:hover{
+        background-color: #91AD41;
+        border: #91AD41;
+        transition: 0.5s;
+
+    }
+
+    .condition{
+        font-size: 14px;
+        font-family: "quisand";
+        color: #8b8b99;
+        width: 860px;
+        margin: auto;
+    }
+
+    .text-gradiant{
+        margin-bottom: 10px;
+        text-transform: uppercase;
+        background: -webkit-linear-gradient(35deg, #91ad41, #ff8a6c);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        font-family: "quisand2";
+    }
+
+    .sp {
+        width: 262px;
+    }
+
+    .sp img {
+        width: 141px;
+    }
+
+    .sp p {
+        font-family: "quisand2";
+    }
+
+    .sp span {
+        font-size: 14px;
+        font-family: "quisand";
+        color: #8b8b99;
+        width: 100px;
+    }
+    .all2{
+        display: none;
+    }
+
+}
+
+@media only screen and (max-width: 768px) {
+    @font-face {
+        font-family: "quisand";
+        src: url("../../../../font/static/Quicksand-Medium.ttf");
+    }
+
+    @font-face {
+        font-family: "quisand2";
+        src: url("../../../../font/static/Quicksand-Bold.ttf");
+    }
+
+    .banner-icon1 {
+        /* width: 384px; */
+        max-height: 379px;
+        background: #59CCA6;
+        position: relative;
+        opacity: 1;
+    }
+
+    .banner-icon1:hover {
+        opacity: 0.8;
+    }
+
+    .banner-icon2 {
+        /* width: 384px; */
+        max-height: 379px;
+        background: #91AD41;
+        position: relative;
+        opacity: 1;
+    }
+
+    .banner-icon2:hover {
+        opacity: 0.8;
+    }
+
+    .banner-icon3 {
+        /* width: 384px; */
+        max-height: 379px;
+        background: #E3B375;
+        position: relative;
+        opacity: 1;
+    }
+
+    .banner-icon3:hover {
+        opacity: 0.8;
+    }
+
+    .banner-icon4 {
+        /* width: 384px; */
+        max-height: 379px;
+        background: #EF7F94;
+        position: relative;
+        opacity: 1;
+    }
+
+    .banner-icon4:hover {
+        opacity: 0.8;
+    }
+
+    .col-img1 {
+        width: 100%;
+        max-height: 379px;
+        padding-left: 159px;
+
+    }
+
+    .text-banner {
+        position: absolute;
+        top: 25%;
+        width: 250px !important;
+        left: 16%;
+        color: white;
+    }
+
+    .col-img2 {
+        width: 100%;
+        max-height: 379px;
+        padding-left: 148px;
+
+    }
+
+    .col-img3 {
+        width: 100%;
+        max-height: 379px;
+        padding-left: 78px;
+    }
+
+    .col-img4 {
+        width: 100%;
+        max-height: 379px;
+        padding-left: 152px;
+    }
+
+    .but {
+
+        position: absolute;
+        top: 81%;
+        left: 16%;
+
+    }
+
+    .but button {
+        background: #27272f;
+        border: #27272f 1px solid;
+        color: white;
+        padding: 10px 12px;
+        border-radius: 5px;
+        font-family: "quisand";
+        font-size: 14px;
+    }
+
+    .but button:hover {
+        background-color: #91AD41;
+        border: #91AD41;
+        transition: 0.5s;
+
+    }
+
+    .condition {
+        font-size: 14px;
+        font-family: "quisand";
+        color: #8b8b99;
+        width: 450px;
+        margin: auto;
+    }
+
+    .text-gradiant {
+        margin-bottom: 10px;
+        text-transform: uppercase;
+        background: -webkit-linear-gradient(35deg, #91ad41, #ff8a6c);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        font-family: "quisand2";
+    }
+
+    .sp {
+        width: 220px;
+    }
+
+    .sp img {
+        width: 135px;
+    }
+
+    .sp p {
+        font-family: "quisand2";
+    }
+
+    .sp span {
+        font-size: 14px;
+        font-family: "quisand";
+        color: #8b8b99;
+        width: 100px;
+    }
+    .all{
+        display: none;
+    }
+    .all2{
+        display: block;
+        margin: 0px 15px;
+    }
+}

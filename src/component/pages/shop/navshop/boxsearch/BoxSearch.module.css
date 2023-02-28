@@ -1,0 +1,53 @@
+.box-search1 {
+    width: 275px;
+    position: absolute;
+    background: white;
+    top: 60%;
+    
+}
+
+.img-search {
+    width: 60px;
+    height: 60px;
+    margin-right: 40px;
+    margin-left: 15px;
+}
+
+.form-item {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.p-result {
+
+    font-size: 15px;
+    margin-bottom: 10px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.fontname {
+    
+    font-size: 16px;
+}
+.fontname2{
+    font-size: 12px;
+}
+
+.linkitem:hover {
+    text-decoration: none;
+    color: black;
+}
+
+.linkitem {
+    color: black;
+}
+.fontname:hover{
+    color: white;
+}
+.fontname2:hover{
+    color: white;
+}
+.form-item:hover {
+    background-color: #91AD41;
+}

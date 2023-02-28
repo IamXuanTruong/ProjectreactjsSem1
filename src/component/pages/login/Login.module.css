@@ -1,0 +1,67 @@
+
+.banner{
+    position: relative;
+}
+.banner img{
+    height: 194px;
+    width: 100%;
+}
+.text-banner{
+    position: absolute;
+    top: 30%;
+    left: 44%;
+    text-align: center;
+    font-family: "quisand2";
+}
+.text-banner a{
+    color: rgb(149, 149, 149);
+    text-decoration: none !important;
+}
+.text-banner a:hover{
+    color: #91AD41;
+}
+.text-banner span{
+    color: #91AD41 !important;
+}
+.text-email{
+    color: rgb(39, 39, 39);
+    text-align: left;
+   
+    margin: 0px !important;
+    padding-bottom: 6px;
+    font-weight: 400;
+    
+}
+
+.email{
+    color: #000000 !important;
+    padding: 7px;
+    border-radius: 20px;
+    border: 1px solid rgb(224 224 224);
+    width: 100%;
+    font-size: 14px;
+}
+
+.btn-login{
+    border-radius: 30px;  
+    border: none;
+    background-color: #91AD41 ;
+    color: #fff;
+    font-size: 14px;
+}
+.text-submit{
+    color: gray;
+    
+}
+.text-submit:hover{
+    color: #91AD41;
+    text-decoration: underline;
+    
+}
+.email{
+    padding-left: 22px;
+}
+
+.err{
+    color: red;
+}

@@ -1,0 +1,95 @@
+@media only screen and (max-width: 2560px) {
+    @font-face {
+        font-family: "quisand";
+        src: url("../../../../font/static/Quicksand-Medium.ttf");
+    }
+
+    @font-face {
+        font-family: "quisand2";
+        src: url("../../../../font/static/Quicksand-Bold.ttf");
+    }
+    .text-gradiant{
+        margin-bottom: 10px;
+        text-transform: uppercase;
+        background: -webkit-linear-gradient(35deg, #91ad41, #ff8a6c);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        font-family: "quisand2";
+    }
+    .classify{
+        margin-left: 460px;
+    }
+    .cl-menu{
+        padding: 7px 14px;
+        background: #ffffff;
+        border-radius: 20px;
+        color: rgb(0, 0, 0);
+        text-decoration: none !important;
+        border: 1px #d1d1d1 solid;
+        
+    }
+    .cl-menu:hover{    
+        background: #91AD41;       
+        color: white;
+        transition: 0.7s;
+    }
+      .hot-img{
+        max-height: 495px;
+        width: 100%;
+        
+    }
+    .hotline{
+        position: relative;
+    }
+    .text-hotline{
+        position: absolute;
+        top: 10%;
+        color: white;
+        left: 32%;
+        top: 25%;
+        width: 550px;
+    }
+    .phone{
+        font-size: 48px;
+        font-family: "quisand2";
+    }
+
+    
+}
+@media only screen and (max-width: 768px) {
+    @font-face {
+        font-family: "quisand";
+        src: url("../../../../font/static/Quicksand-Medium.ttf");
+    }
+
+    @font-face {
+        font-family: "quisand2";
+        src: url("../../../../font/static/Quicksand-Bold.ttf");
+    }
+    .classify{
+        margin: 0px 100px;
+        padding-left: 20px;
+    }
+    .cl-menu{
+        padding: 7px 14px;
+        background: #ffffff;
+        border-radius: 20px;
+        color: rgb(0, 0, 0);
+        text-decoration: none !important;
+        border: 1px #d1d1d1 solid;
+        font-size: 12px;
+        
+    }
+    .hotline{
+        position: relative;
+    }
+    .text-hotline{
+        position: absolute;
+        
+        color: white;
+        left: 14%;
+        top: 20%;
+        width: 550px;
+    }
+  
+}
